@@ -85,8 +85,8 @@ class LoginMiddleware(object):
 
                 spider.driver.get(request.url)
                 print("正在访问登录界面")
-                spider.driver.find_element_by_id('username').send_keys("1026790662@qq.com")
-                spider.driver.find_element_by_id('password').send_keys("123456a")
+                spider.driver.find_element_by_id('username').send_keys("*****")
+                spider.driver.find_element_by_id('password').send_keys("*****")
                 time.sleep(2)
                 while True:
 
