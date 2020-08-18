@@ -1,0 +1,43 @@
+{'confidenceScore': 0.5802601000000001,
+ 'name': '上海机场',
+ 'negativeScore': 0.3666916,
+ 'num': '600009',
+ 'positiveScore': 0.63330851,
+ 'sentimentScore': 4}
+----------{'confidenceScore': 0.5608545703000001,
+ 'name': '东风汽车',
+ 'negativeScore': 0.4911101605000001,
+ 'num': '600006',
+ 'positiveScore': 0.49888983890000005,
+ 'sentimentScore': -2}
+----------{'confidenceScore': 0.5619214862000002,
+ 'name': '浦发银行',
+ 'negativeScore': 0.45162690800000005,
+ 'num': '600000',
+ 'positiveScore': 0.5283731164000002,
+ 'sentimentScore': 9}
+----------{'confidenceScore': 0.6066957279999999,
+ 'name': '武钢股份',
+ 'negativeScore': 0.4395001535,
+ 'num': '600005',
+ 'positiveScore': 0.4904998751000001,
+ 'sentimentScore': 6}
+----------{'confidenceScore': 0.7175814400000001,
+ 'name': '包钢股份',
+ 'negativeScore': 0.29482694560000006,
+ 'num': '600010',
+ 'positiveScore': 0.6851730420000002,
+ 'sentimentScore': 46}
+----------{'confidenceScore': 0.5267596400000001,
+ 'name': '宝钢股份',
+ 'negativeScore': 0.5653078060000001,
+ 'num': '600019',
+ 'positiveScore': 0.43469216,
+ 'sentimentScore': -4}
+----------{'confidenceScore': 0.5169718054999999,
+ 'name': '上海电力',
+ 'negativeScore': 0.49378725310000016,
+ 'num': '600021',
+ 'positiveScore': 0.48621277129999996,
+ 'sentimentScore': -9}
+----------

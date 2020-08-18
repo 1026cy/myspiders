@@ -1,0 +1,102 @@
+[INFO  - 2017-11-06T03:35:20.870Z] GhostDriver - Main - running on port 61753
+[INFO  - 2017-11-06T03:35:24.307Z] Session [8613c5b0-c2a3-11e7-ad0c-bba430cd3b53] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-11-06T03:35:24.307Z] Session [8613c5b0-c2a3-11e7-ad0c-bba430cd3b53] - page.customHeaders:  - {}
+[INFO  - 2017-11-06T03:35:24.307Z] Session [8613c5b0-c2a3-11e7-ad0c-bba430cd3b53] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-11-06T03:35:24.307Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 8613c5b0-c2a3-11e7-ad0c-bba430cd3b53
+[ERROR - 2017-11-06T03:35:37.325Z] Session [8613c5b0-c2a3-11e7-ad0c-bba430cd3b53] - page.onError - msg: SyntaxError: JSON Parse error: Unexpected EOF
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-11-06T03:35:37.325Z] Session [8613c5b0-c2a3-11e7-ad0c-bba430cd3b53] - page.onError - stack:
+  parse (http://s.xnimg.cn/a89037/nx/apps/login/login.js:1)
+  onSuccess (http://s.xnimg.cn/a89037/nx/apps/login/login.js:1)
+  onreadystatechange (http://s.xnimg.cn/a72842/n/core/base-all2.js:4)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-11-06T03:35:41.134Z] Session [8613c5b0-c2a3-11e7-ad0c-bba430cd3b53] - page.onError - msg: module ui/renren/share doesn't exist. stack: newsfeed/index,newsfeed/initFeed,ui/renren/share
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-11-06T03:35:41.135Z] Session [8613c5b0-c2a3-11e7-ad0c-bba430cd3b53] - page.onError - stack:
+  (anonymous function) (http://s.xnimg.cn/a83151/nx/core/libs.js:1)
+  i (http://s.xnimg.cn/a83151/nx/core/libs.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-11-06T03:35:41.135Z] Session [8613c5b0-c2a3-11e7-ad0c-bba430cd3b53] - page.onError - msg: module ui/renren/vocal doesn't exist. stack: newsfeed/index,newsfeed/initFeed,ui/renren/vocal
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-11-06T03:35:41.135Z] Session [8613c5b0-c2a3-11e7-ad0c-bba430cd3b53] - page.onError - stack:
+  (anonymous function) (http://s.xnimg.cn/a83151/nx/core/libs.js:1)
+  i (http://s.xnimg.cn/a83151/nx/core/libs.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-11-06T03:35:41.136Z] Session [8613c5b0-c2a3-11e7-ad0c-bba430cd3b53] - page.onError - msg: module ui/renren/like doesn't exist. stack: newsfeed/index,newsfeed/initFeed,ui/renren/like
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-11-06T03:35:41.136Z] Session [8613c5b0-c2a3-11e7-ad0c-bba430cd3b53] - page.onError - stack:
+  (anonymous function) (http://s.xnimg.cn/a83151/nx/core/libs.js:1)
+  i (http://s.xnimg.cn/a83151/nx/core/libs.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-11-06T03:35:41.136Z] Session [8613c5b0-c2a3-11e7-ad0c-bba430cd3b53] - page.onError - msg: module ui/renren/follow doesn't exist. stack: newsfeed/index,newsfeed/initFeed,ui/renren/follow
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-11-06T03:35:41.136Z] Session [8613c5b0-c2a3-11e7-ad0c-bba430cd3b53] - page.onError - stack:
+  (anonymous function) (http://s.xnimg.cn/a83151/nx/core/libs.js:1)
+  i (http://s.xnimg.cn/a83151/nx/core/libs.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-11-06T03:35:41.137Z] Session [8613c5b0-c2a3-11e7-ad0c-bba430cd3b53] - page.onError - msg: module ui/renren/relationFollow doesn't exist. stack: ui/renren/recommendFri,ui/renren/relationFollow
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-11-06T03:35:41.137Z] Session [8613c5b0-c2a3-11e7-ad0c-bba430cd3b53] - page.onError - stack:
+  (anonymous function) (http://s.xnimg.cn/a83151/nx/core/libs.js:1)
+  i (http://s.xnimg.cn/a83151/nx/core/libs.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-11-06T03:35:41.138Z] Session [8613c5b0-c2a3-11e7-ad0c-bba430cd3b53] - page.onError - msg: module backbone doesn't exist. stack: newsfeed/index,newsfeed/feedFilter,backbone
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-11-06T03:35:41.138Z] Session [8613c5b0-c2a3-11e7-ad0c-bba430cd3b53] - page.onError - stack:
+  (anonymous function) (http://s.xnimg.cn/a83151/nx/core/libs.js:1)
+  i (http://s.xnimg.cn/a83151/nx/core/libs.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-11-06T03:35:41.138Z] Session [8613c5b0-c2a3-11e7-ad0c-bba430cd3b53] - page.onError - msg: module ui/renren/textbox doesn't exist. stack: newsfeed/index,newsfeed/initFeed,newsfeed/similarFeed,newsfeed/feed,newsfeed/reply,ui/Reply,ui/renren/textbox
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-11-06T03:35:41.138Z] Session [8613c5b0-c2a3-11e7-ad0c-bba430cd3b53] - page.onError - stack:
+  (anonymous function) (http://s.xnimg.cn/a83151/nx/core/libs.js:1)
+  i (http://s.xnimg.cn/a83151/nx/core/libs.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-11-06T03:35:41.139Z] Session [8613c5b0-c2a3-11e7-ad0c-bba430cd3b53] - page.onError - msg: module app/publisher doesn't exist. stack: app/publisher
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-11-06T03:35:41.139Z] Session [8613c5b0-c2a3-11e7-ad0c-bba430cd3b53] - page.onError - stack:
+  (anonymous function) (http://s.xnimg.cn/a83151/nx/core/libs.js:1)
+  i (http://s.xnimg.cn/a83151/nx/core/libs.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-11-06T03:35:41.139Z] Session [8613c5b0-c2a3-11e7-ad0c-bba430cd3b53] - page.onError - msg: module ui/renren/replyOption doesn't exist. stack: newsfeed/index,newsfeed/initFeed,newsfeed/similarFeed,newsfeed/feed,newsfeed/reply,ui/Reply,ui/renren/replyOption
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-11-06T03:35:41.139Z] Session [8613c5b0-c2a3-11e7-ad0c-bba430cd3b53] - page.onError - stack:
+  (anonymous function) (http://s.xnimg.cn/a83151/nx/core/libs.js:1)
+  i (http://s.xnimg.cn/a83151/nx/core/libs.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-11-06T03:35:53.824Z] Session [8613c5b0-c2a3-11e7-ad0c-bba430cd3b53] - page.onError - msg: module roomkeeper/chatroom doesn't exist. stack: webpager/main,roomkeeper/chatroom
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-11-06T03:35:53.824Z] Session [8613c5b0-c2a3-11e7-ad0c-bba430cd3b53] - page.onError - stack:
+  (anonymous function) (http://s.xnimg.cn/a83151/nx/core/libs.js:1)
+  i (http://s.xnimg.cn/a83151/nx/core/libs.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-11-06T03:35:53.824Z] Session [8613c5b0-c2a3-11e7-ad0c-bba430cd3b53] - page.onError - msg: module ui/renren/textbox doesn't exist. stack: webpager/main,webpager/noumenon_cover,ui/renren/textbox
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-11-06T03:35:53.824Z] Session [8613c5b0-c2a3-11e7-ad0c-bba430cd3b53] - page.onError - stack:
+  (anonymous function) (http://s.xnimg.cn/a83151/nx/core/libs.js:1)
+  i (http://s.xnimg.cn/a83151/nx/core/libs.js:1)
+
+  phantomjs://platform/console++.js:263 in error

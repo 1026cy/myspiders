@@ -1,0 +1,10 @@
+import  scrapy
+from  scrapy import cmdline
+#pycharm执行风格
+cmdline.execute(["scrapy","crawl","osSpider"])
+
+#cmdline.execute(["scrapy","crawl","ctospider"])
+# cmdline.execute(["scrapy","crawl","baike",'-o','1.csv'])
+#正统方法
+#cookie。每链接一次，TCP 断开,再链接不行。
+#selenium登陆，保持会话，
