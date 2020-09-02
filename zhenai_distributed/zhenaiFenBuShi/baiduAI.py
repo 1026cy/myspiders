@@ -5,9 +5,9 @@ from aip import AipNlp
 from aip import AipFace
 
 """ 你的 APPID AK SK """
-APP_ID = '10253494'
-API_KEY = 'NAh5KkgrKTPyxzUBewCAakvm'
-SECRET_KEY = 'nTrHzPhh0CQP9H9Idz3jftsji9NgVdvF'
+APP_ID = '**'
+API_KEY = '***'
+SECRET_KEY = '****'
 
 aipFace = AipFace(APP_ID, API_KEY, SECRET_KEY)
 

@@ -44,11 +44,11 @@ if __name__=="__main__":
     multiprocessing.freeze_support()#开启分布式支持
     QueueManger.register("get_task",callable=return_task)#注册函数给客户端调用
     QueueManger.register("get_result", callable=return_result)
-    manger=QueueManger(address=("127.0.0.1",8848),authkey=123456) #创建一个管理器，设置地址与密码
+    manger=QueueManger(address=("127.0.0.1",8848),authkey=4321) #创建一个管理器，设置地址与密码
     manger.start() #开启
     task,result=manger.get_task(),manger.get_result() #任务，结果
 
-    myCon = pymongo.MongoClient(host='127.0.0.1', port=27017)
+    myCon = pymongo.MongoClient(host='127.0.0.1', port=4321)
     db = myCon['zhenaiwang']
     coll = db['data']
 
@@ -57,8 +57,8 @@ if __name__=="__main__":
     driver.get(url)
     driver.implicitly_wait(10)
 
-    driver.find_element_by_id('login_email').send_keys('17512067801')
-    driver.find_element_by_id('login_password').send_keys('plj0801')
+    driver.find_element_by_id('login_email').send_keys('***')
+    driver.find_element_by_id('login_password').send_keys('****')
     time.sleep(2)
 
     driver.find_element_by_id('login_btn').click()

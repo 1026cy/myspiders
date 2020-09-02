@@ -12,9 +12,9 @@ from aip import AipFace
 import urllib
 import urllib.request
 
-APP_ID = '10253494'
-API_KEY = 'NAh5KkgrKTPyxzUBewCAakvm'
-SECRET_KEY = 'nTrHzPhh0CQP9H9Idz3jftsji9NgVdvF'
+APP_ID = '***'
+API_KEY = '***'
+SECRET_KEY = '****'
 
 aipFace = AipFace(APP_ID, API_KEY, SECRET_KEY)
 class  QueueManger(multiprocessing.managers.BaseManager):#继承，进程管理共享数据

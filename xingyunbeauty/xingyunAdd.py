@@ -69,9 +69,9 @@ def login(webdriver):
     loginBtn = webdriver.find_element_by_css_selector("body > header > div > div.operate > a.button.loginBtn")
     loginBtn.send_keys(Keys.ENTER)
     time.sleep(1)
-    webdriver.find_element_by_css_selector("#mobile").send_keys("18520025781")
+    webdriver.find_element_by_css_selector("#mobile").send_keys("***")
     time.sleep(3)
-    webdriver.find_element_by_css_selector("#pwd").send_keys("abcd1234")
+    webdriver.find_element_by_css_selector("#pwd").send_keys("*****")
     time.sleep(1)
 
     webdriver.find_element_by_css_selector("#xingyun_Login").click()
