@@ -24,28 +24,28 @@ def pagexpath(url):
         datetime = line.xpath("./span[4]/text()")[0].strip()
 
         mystr += job
-        print job
+        print (job)
         mystr += " # "
         mystr += company
-        print company
+        print (company)
         mystr += " # "
         mystr += addr
-        print addr
+        print (addr)
         mystr += " # "
         mystr += money
-        print money
+        print (money)
         mystr += " # "
         mystr += datetime
-        print datetime
+        print (datetime)
         mystr += "\r\n"
-        print mystr
+        print (mystr)
 
         datalist.append(mystr)
 
-    print datalist
+    print (datalist)
 
     return  datalist
 url = "http://search.51job.com/list/040000,000000,0000,00,9,99,python,2,5.html"
 a = pagexpath(url)
 for i in a:
-    print i[0]
+    print (i[0])

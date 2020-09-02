@@ -6,9 +6,9 @@ import requests
 from aip import AipNlp
 
 """ 你的 APPID AK SK """
-APP_ID = '10313738'
-API_KEY = '4LtkGbtP7WDWCmObkl5X2eGG'
-SECRET_KEY = 'nr2ZIyRSGFQSH8sSMIPXxhombIpxnAoG'
+APP_ID = '***'
+API_KEY = '***'
+SECRET_KEY = '***'
 
 aipNlp = AipNlp(APP_ID, API_KEY, SECRET_KEY)
 

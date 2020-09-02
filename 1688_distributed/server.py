@@ -32,8 +32,8 @@ def getPage(keyword):#1688必须登录才能查看，这个函数的目的是拿
     driver.get(url)
     time.sleep(1)
     driver.find_element_by_class_name("login-switch").click()
-    username = "kscp123"
-    password = "92KOBE"
+    username = "****"
+    password = "****"
     time.sleep(1)
     driver.find_element_by_id("TPL_username_1").send_keys(username)
     time.sleep(1)

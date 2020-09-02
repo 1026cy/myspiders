@@ -37,10 +37,10 @@ if __name__=="__main__":
         myUrl = result.get()
         mytitle = title.get()
         if myUrl not in urlList:
-            print mytitle
+            # print mytitle
             task.put(myUrl)
             urlList.append(myUrl)
 
 
-    manger.shutdown()#关闭服务器
+    # manger.shutdown()#关闭服务器
 

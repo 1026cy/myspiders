@@ -3,9 +3,9 @@ import os
 import pymongo
 
 # """ 你的 APPID AK SK """
-APP_ID = '10322297'
-API_KEY = 'RIrmS6cUDfSUjtsvhCN195yt'
-SECRET_KEY = 'DKMiu1p9ozCo0MOGB4ju4GBqdBjNMx8y '
+APP_ID = '***'
+API_KEY = '***'
+SECRET_KEY = '*** '
 
 aipFace = AipFace(APP_ID, API_KEY, SECRET_KEY)
 

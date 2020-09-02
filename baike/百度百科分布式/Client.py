@@ -68,5 +68,5 @@ if __name__=="__main__":
             result.put(url)
         mtTitle = gettitle(pagedata)[0]
         title.put(mtTitle)
-        print 'visit',url
+        # print( 'visit',url)
 
